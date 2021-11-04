@@ -40,8 +40,8 @@ class Game{
                 form.hide();
 
                 Player.getPlayerInfo();
-//Call the getPlayerAtEnd() function in the play() function of game.js.
-
+    //Call the getPlayerAtEnd() function in the play() function of game.js.
+                player.getPlayerAtEnd();
 
                 image(back_img, 0, 0, 1000, 800);
                  var x =100;
